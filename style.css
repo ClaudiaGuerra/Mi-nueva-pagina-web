@@ -45,31 +45,64 @@ p {
     color:rgb(red, green, blue)
 }
 
-/* SELECTORES DE CLASE */
-/* Los selectores de clase pueden reutilizarse */
-.contenedor {
-    display:flex;
+footer{
+    display:flex; /*el footer se muestra flexible*/
     flex-direction: row;
-    width: 100%;
-    background-color: rgb(172, 130, 191);
+    justify-content: center; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
+    /* background-color: rgb(228, 186, 217); para el color del fondo*/ 
+    width: 100%; /* Propiedad para definir el ancho de la pagina */
 }
 
-.caja {
+
+/* SELECTORES DE CLASE */
+/* Los selectores de clase pueden reutilizarse */
+/* .contenedor-morado {
+    display:flex;
+     flex-direction: row; 
+    width: 100%;
+    background-color: ;
+} */
+
+/* .contenedor-rosa {
+    /* display:flex;
+    flex-direction: row; 
+    width: 100%;
+    background-color: rgb(228, 186, 217);
+} */ 
+
+.caja-morada {
     width: 100%;
     height: 100%;
+    background-color: rgb(172, 130, 191);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: justify;
     align-items: center;
 }
 
-.caja img {
+.caja-rosa {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 186, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+}
+
+.caja-morada img {
     border-radius: 50%;
     height: 90%;
     justify-content: right;
 }
 
-.presentacion {
+.caja-rosa img {
+    border-radius: 50%;
+    height: 90%;
+    justify-content: right;
+}
+
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,14 +118,14 @@ p {
     font-size: 29px;
 }
 
-#about{ /*Los selectores de ID se utilizan para que al hacer click en un boton, lleve a otro lugar de la pagina */
+#content{ /*Los selectores de ID se utilizan para que al hacer click en un boton, lleve a otro lugar de la pagina */
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#about iframe{
+#content iframe{
     padding:10px;
     margin: 10px;
 }
