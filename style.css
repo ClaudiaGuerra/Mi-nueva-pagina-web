@@ -51,8 +51,9 @@ footer{
     justify-content: center; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
     /* background-color: rgb(228, 186, 217); para el color del fondo*/ 
     width: 100%; /* Propiedad para definir el ancho de la pagina */
-    text-align: center;
+    text-align: baseline;
     text-justify: inter-word;
+    background-color: rgb(228, 186, 217);
 }
 
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> <!-- el header -->
+    <meta charset="UTF-8"> <!-- los meta dan información de la pagina al motor de búsqueda -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudia Guerra | Quality Assurance| Physicist </title> <!-- aquí se pone el nombre de la pagina. la barra inclinada / significa que se cierra el bloque-->
+    <link rel="stylesheet" href="style.css"> <!-- esta linea se utiliza para hacer el link entre el archivo html y el css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body> <!-- aquí dentro se muestra todo el contenido -->
+    <header>
+        <div> <!-- div es un contenedor donde podemos agrupar varios elementos para despues darles atributos de comportamiento o disenio -->
+            <div style="background-color: rgb(142, 5, 255);"></div>
+            <img src="./imagenes/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
+                <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
+                <a href="qa.html"><li>QUALITY ASSURANCE</li></a>
+                <a href="physics.html"><li>PHYSICS</li></a>
+                <a href="projects.html"><li>PROJECTS</li></a>
+                <a href="index.html#skills"><li>SKILLS</li></a>
+                <a href="index.html#certifications"><li>CERTIFICATIONS</li></a>
+                <a href="index.html#courses"><li>COURSES</li></a>
+                <a href="index.html#contact"><li>CONTACT</li></a>
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- QUALITY ASSURANCE SECTION -->
+    <div class="caja-morada" id="qualityassurance">
+        <img src="./imagenes/qa2.jpg" alt="Quality Assurance">
+        <h1>Quality Assurance</h1>
+        <p>I worked as a Quality Assurance Engineer in a consulting role for Oracle Energy and Water. During my time there, I worked with utility software like Customer Cloud Service (CCS), Customer to Meter (C2M), and Customer Care and Billing (CC&B).
+            My main activities included test design, requirement analysis, test execution, and reporting defects. Additionally, I was involved in designing training programs, providing follow-up support and mentoring new employees. </p>     
+    </div>
+        <!-- QUALITY ASSURANCE > CAROUSEL -->
+    <div class="carousel-morado" id="carousel-qa">
+        <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img src="./imagenes/carousel/qa/20240221_170555.jpg" class="d-block w-25 mx-auto rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carousel/qa/MDCTeam2.JPG" class="d-block w-25 mx-auto rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carousel/qa/IMG-20221017-WA0028.jpg" class="d-block w-25 mx-auto rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carousel/qa/IMG_0815.JPG" class="d-block w-25 mx-auto rounded" alt="...">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="#footer">
+        <p><a href="index.html">Claudia Guerra</a></p> <p> | </p>
+        <p><a href="qa.html">Quality Assurance</a></p><p> | </p>
+        <p><a href="physics.html">Physicist</a></p>
+        <!-- <p>Claudia Guerra | Quality Assurance | Physicist </p> -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
