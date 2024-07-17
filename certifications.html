@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> <!-- el header -->
+    <meta charset="UTF-8"> <!-- los meta dan información de la pagina al motor de búsqueda -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudia Guerra | Quality Assurance| Physicist </title> <!-- aquí se pone el nombre de la pagina. la barra inclinada / significa que se cierra el bloque-->
+    <link rel="stylesheet" href="style.css"> <!-- esta linea se utiliza para hacer el link entre el archivo html y el css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body> <!-- aquí dentro se muestra todo el contenido -->
+    <header>
+        <div> <!-- div es un contenedor donde podemos agrupar varios elementos para despues darles atributos de comportamiento o disenio -->
+            <div style="background-color: rgb(142, 5, 255);"></div>
+            <a href="./index.html">
+                <img src="./imagenes/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
+                <!-- cada li es un item de la lista-->
+                <!-- a se utiliza para poner links. Para que HOME aparezca como boton, se tiene que poner dentro de la etiqueta a-->
+                <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
+                <a href="index.html#skills"><li>SKILLS</li></a>
+                <a href="qa.html"><li>QUALITY ASSURANCE</li></a>
+                <a href="physics.html"><li>PHYSICS</li></a>
+                <a href="projects.html"><li>PROJECTS</li></a>
+                <a href="certifications.html"><li>CERTIFICATIONS</li></a>
+                <a href="courses.html"><li>COURSES</li></a>
+                <a href="index.html#contact"><li>CONTACT</li></a>
+            </ul> 
+        </nav>
+    </header>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <div class="caja-morada">
+            <img src="./imagenes/certifications.png" alt="Certifications" id="certifications">
+            <h1>CERTIFICATIONS</h1>
+        </div>  
+    
+        <!-- ESTA CAJA TIENE LA INFORMACION DE CADA UNA DE LAS CERTIFICACIONES -->
+        <div class="doc-morada">
+            <div>
+                <!-- IELTS -->
+                <!-- PICTURE -->
+                <div class="cert">
+                    <a href="./files/cert/ieltslifeskills.png" target="_blank"> 
+                        <img src="./files/cert/ieltslifeskills.png"></img>
+                    </a>
+                    <!-- NAME AND DESCRIPTION -->
+                    <div class="cert-text">
+                        <a href="./files/cert/ieltslifeskills.png" target="_blank"><p>International English Language Testing System - Band 7 (C1 CEFR)</p></a>
+                        <p>Band 7 in IELTS is equivalent to C1 in the Common European Framework of Reference (CEFR) and represents an Advanced English level. </p>
+                    </div>
+                </div> 
+            </div>
+    
+            <!-- oci -->
+            <!-- PICTURE -->
+            <div>
+                <div class="cert">
+                    <a href="./files/cert/oci2.png" target="_blank"> 
+                        <img src="./files/cert/oci.png"></img>
+                    </a>
+                    <!-- NAME AND DESCRIPTION -->
+                    <div class="cert-text">
+                        <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=CC609514D8884496CF1FF7B51AF166DD71FCEFE81D07841C934898A831D3D7F2" target="_blank"><p>Oracle Cloud Infrastructure</p></a>
+                        <p>The Oracle Cloud Infrastructure (OCI) Foundations certification is for individuals who intend to demonstrate fundamental knowledge of public cloud services provided by Oracle Cloud Infrastructure (OCI). This certification is for candidates with non-technical backgrounds, such as those involved in selling or procuring cloud solutions, as well as those with a technical background who want to validate their foundational-level knowledge around core OCI services. This exam does not require any hands-on technical experience and is not a prerequisite for taking any other OCI certifications.</p>
+                        <p><b>Skills:</b>
+                            <ul>
+                                <li>Understanding of basic cloud concepts;Familiarity with core OCI services including Compute</li>
+                                <li>Storage</li>
+                                <li>Networking</li>
+                                <li>Ability to explain OCI security and identity model and compliance structure;Understanding of OCI billing.</li>
+                                <li>Cost management and governance and administration.</li>
+                                <li>Database</li>
+                            </ul>
+                        </p>    
+                    </div>
+                </div> 
+            </div>
+                
+    
+            <!-- ccs -->
+            <!-- PICTURE -->
+            <div>
+                <div class="cert">
+                    <a href="./files/cert/ccs2.png" target="_blank"> 
+                        <img src="./files/cert/ccs.png"></img>
+                    </a>
+                    <!-- NAME AND DESCRIPTION -->
+                    <div class="cert-text">
+                        <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=1CB6DD5480E49DC075F65C593F55199A6F6D2199874A20AB3D12F5A0C9A18DCD" target="_blank"><p>Oracle Utilities Customer Cloud Service 2022 Certified Implementation Professional</p></a>
+                        <p>An Oracle Utilities Customer Cloud Service 2022 Certified Implementation Specialist has demonstrated the knowledge required to Implement and Configure the Service, including Managing Customer Information and Financial Transactions; Billing; Managing Rates and Payments; and Monitoring Overdue Debt, Devices & Measuring Components, Measurements, VEE, Usage, Fieldwork, Service Order Management, and Operational Device Management. Current training and field experience is highly recommended.</p>
+                        <p><b>Skills:</b>
+                            <ul>
+                                <li>C2M</li>
+                                <li>CSS</li>
+                                <li>Measurement</li>
+                                <li>Oracle Utilities</li>
+                                <li>Usage</li>
+                                <li>VEE Utilities Cloud</li>
+                                <li>Device and Measuring Components</li>
+                                <li>Operational Device Management</li>
+                            </ul>
+                        </p>    
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+
+
+    <footer class="#footer">
+        <p><a href="index.html">Claudia Guerra</a></p> <p> | </p>
+        <p><a href="qa.html">Quality Assurance</a></p><p> | </p>
+        <p><a href="physics.html">Physicist</a></p>
+        <!-- <p>Claudia Guerra | Quality Assurance | Physicist </p> -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+

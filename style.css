@@ -14,6 +14,7 @@ header {
 
 a{
     text-decoration: none;
+    color: aliceblue;
 }
 header ul { /*aqui se especifica que a la lista del header se le aplican estas propiedades*/
     list-style: none;
@@ -33,6 +34,7 @@ header img{
 img { /*Este selector es para definir el tamaño de las imagenes*/
     width: 150px; /*Se pone unicamente el ancho para que lo alto se defina automaticamente por el sistema*/
 }
+
 
 h1 {
     font-size: 24px;
@@ -72,6 +74,10 @@ footer{
     width: 100%;
     background-color: rgb(228, 186, 217);
 } */ 
+.pdf {
+    width:100%;
+    aspect-ratio: 1/1;
+}
 
 .caja-morada {
     width: 100%;
@@ -84,6 +90,8 @@ footer{
     text-align: justify;
     text-justify: inter-word;
     padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
 }
 
 .caja-rosa {
@@ -124,6 +132,69 @@ footer{
     justify-content: right;
 }
 
+.doc-morada {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(172, 130, 191);
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: left;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+    padding-left: 3cm;
+}
+
+.doc-rosa {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 186, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: :left;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+}
+
+.cert{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    padding-bottom: 1cm;
+    text-justify: inter-word;
+    align-items: left;
+    text-align: justify;
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    
+}
+
+/* .cert img{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    padding-bottom: 1cm;
+    width: 30%;
+} */
+
+.cert-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    text-justify: inter-word;
+    align-items: left;
+    text-align: justify;
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -153,3 +224,4 @@ footer{
     padding:10px;
     margin: 10px;
 }
+
