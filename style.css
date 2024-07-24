@@ -12,18 +12,36 @@ header {
     width: 100%; /* Propiedad para definir el ancho de la pagina */
 }
 
+.menu {
+    display:flex; /*el header se muestra flexible*/
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
+    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
+    width: 100%; /* Propiedad para definir el ancho de la pagina */
+}
+
+.menu ul li{
+    display:inline-block;
+    padding: 17px;
+}
+
+.menu ul li:hover{
+    background: rgb(172, 130, 191);
+ }
+
 a{
     text-decoration: none;
     color: aliceblue;
 }
-header ul { /*aqui se especifica que a la lista del header se le aplican estas propiedades*/
+/* header ul { /*aqui se especifica que a la lista del header se le aplican estas propiedades
     list-style: none;
-    display: flex; /*es para darle las propiedades de flex*/
-    flex-direction: row; /*los elementos se organizan en un row*/
-}
+    display: flex; /*es para darle las propiedades de flex
+    flex-direction: row; los elementos se organizan en un row
+} */ 
 
 header ul li{/* este es para que los elementos li de la lista ul que estan en el header tengan estas caracteristicas*/
-    margin: 10px;
+    margin: 0px;
 }
 
 header img{
