@@ -20,7 +20,6 @@ header ul { /*aqui se especifica que a la lista del header se le aplican estas p
     list-style: none;
     display: flex; /*es para darle las propiedades de flex*/
     flex-direction: row; /*los elementos se organizan en un row*/
-
 }
 
 header ul li{/* este es para que los elementos li de la lista ul que estan en el header tengan estas caracteristicas*/
@@ -105,7 +104,19 @@ footer{
     text-align: justify;
     text-justify: inter-word;
     padding-top: 0.5cm;
+    /*background: url(imagenes/background.png);*/
 
+}
+
+.btn{
+    background: blue;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.btn:hover{
+    opacity:0.8
 }
 
 .carousel-rosa{
@@ -154,7 +165,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: justify;
-    align-items: :left;
+    align-items: left;
     text-align: justify;
     text-justify: inter-word;
     padding-top: 0.5cm;
