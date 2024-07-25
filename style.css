@@ -12,23 +12,7 @@ header {
     width: 100%; /* Propiedad para definir el ancho de la pagina */
 }
 
-.menu {
-    display:flex; /*el header se muestra flexible*/
-    flex-direction: row;
-    list-style: none;
-    justify-content: flex-end; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
-}
 
-.menu ul li{
-    display:inline-block;
-    padding: 17px;
-}
-
-.menu ul li:hover{
-    background: rgb(172, 130, 191);
- }
 
 a{
     text-decoration: none;
@@ -49,7 +33,7 @@ header img{
 }
 
 img { /*Este selector es para definir el tamaño de las imagenes*/
-    width: 150px; /*Se pone unicamente el ancho para que lo alto se defina automaticamente por el sistema*/
+    width: 100px; /*Se pone unicamente el ancho para que lo alto se defina automaticamente por el sistema*/
 }
 
 
@@ -64,16 +48,23 @@ p {
     color:rgb(red, green, blue)
 }
 
-footer{
-    display:flex; /*el footer se muestra flexible*/
+/* footer{
+    display:flex; 
     flex-direction: row;
-    justify-content: center; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    /* background-color: rgb(228, 186, 217); para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
-    text-align: baseline;
-    text-justify: inter-word;
+    justify-content: center; 
+    width: 100%; 
+    text-justify: inter-word; 
     background-color: rgb(228, 186, 217);
-}
+}  */
+
+ .footerO{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center; 
+    width: 100%; 
+    text-justify: inter-word; 
+    background-color: rgb(228, 186, 217);
+} 
 
 
 /* SELECTORES DE CLASE */
@@ -91,12 +82,83 @@ footer{
     width: 100%;
     background-color: rgb(228, 186, 217);
 } */ 
-.pdf {
-    width:100%;
-    aspect-ratio: 1/1;
+
+.menu {
+    display:flex; /*el header se muestra flexible*/
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
+    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
+    width: 100%; /* Propiedad para definir el ancho de la pagina */
 }
 
-.caja-morada {
+.menu ul li{
+    display:inline-block;
+    padding: 17px;
+    vertical-align: top;
+}
+
+.menu ul li:hover{
+    background: rgb(172, 130, 191);
+ }
+
+
+.formulario{
+    background: #fff;
+    width: 500px;
+    margin: 20px auto ;
+    padding: 20px;
+    border-radius: 5px ;
+}
+
+.formulario input{
+    display:block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding:20px;
+    margin-bottom: 20px;
+    border: 1px solid #6c22c1;
+    border-radius: 5px;
+}
+
+.formulario textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #a94fb5;
+    color: #a94fb5;
+    padding: 10px;
+    cursor:pointer;
+    font-size:16px;
+    border-radius: 5px;
+
+}
+
+.formulario input[type="submit"]:hover {
+    background: #a94fb5;
+    color: #fff;
+    transition:background 0.3s ease;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+    border: 2px solid #a94fb5;
+}
+
+
+.caja {
     width: 100%;
     height: 100%;
     background-color: rgb(172, 130, 191);
@@ -110,17 +172,15 @@ footer{
     padding-left: 1cm;
     padding-right: 1cm;
 }
+.morada {
+    background-color: rgb(172, 130, 191);
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
 
-.caja-rosa {
-    width: 100%;
-    height: 100%;
+.rosa {
     background-color: rgb(228, 186, 217);
-    display: flex;
-    flex-direction: column;
-    justify-content: justify;
-    align-items: center;
-    text-align: justify;
-    text-justify: inter-word;
     padding-top: 0.5cm;
     /*background: url(imagenes/background.png);*/
 
@@ -137,25 +197,28 @@ footer{
     opacity:0.8
 }
 
-.carousel-rosa{
+
+
+.carousel{
+    padding-bottom: 0.5cm;
+    padding-top: 0.5;
+}
+
+.rosa{
     background-color: rgb(228, 186, 217);
-    padding-bottom: 0.5cm;
-    padding-top: 0.5;
 }
-
-.carousel-morado{
+.morado{
     background-color: rgb(172, 130, 191);
-    padding-bottom: 0.5cm;
-    padding-top: 0.5;
 }
 
-.caja-morada img {
+
+.morada img {
     border-radius: 50%;
     height: 90%;
     justify-content: right;
 }
 
-.caja-rosa img {
+.rosa img {
     border-radius: 50%;
     height: 90%;
     justify-content: right;
@@ -242,15 +305,17 @@ footer{
     font-size: 29px;
 }
 
-#content{ /*Los selectores de ID se utilizan para que al hacer click en un boton, lleve a otro lugar de la pagina */
+.content{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
 }
 
-#content iframe{
+.content iframe{
     padding:10px;
     margin: 10px;
 }
+/* 
+
 
