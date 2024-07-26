@@ -66,6 +66,10 @@ p {
     background-color: rgb(228, 186, 217);
 } 
 
+.footerO a:hover{
+    text-decoration: none;
+}
+
 
 /* SELECTORES DE CLASE */
 /* Los selectores de clase pueden reutilizarse */
