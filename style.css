@@ -4,13 +4,13 @@
 
 /* SELECTOR: las caracteristicas o propiedades que se le dan a una etiqueta para que lo muestre en el html */
 /*SELECTORES DE ETIQUETA */
-header {
-    display:flex; /*el header se muestra flexible*/
+/* header {
+    display:flex; 
     flex-direction: row;
-    justify-content: space-between; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
-}
+    justify-content: space-between; 
+    background-color: rgb(228, 186, 217); 
+    width: 100%; 
+} */
 
 
 
@@ -72,31 +72,17 @@ p {
 
 
 /* SELECTORES DE CLASE */
-/* Los selectores de clase pueden reutilizarse */
-/* .contenedor-morado {
-    display:flex;
-     flex-direction: row; 
-    width: 100%;
-    background-color: ;
-} */
-
-/* .contenedor-rosa {
-    /* display:flex;
-    flex-direction: row; 
-    width: 100%;
-    background-color: rgb(228, 186, 217);
-} */ 
-
 .menu {
-    display:flex; /*el header se muestra flexible*/
+    display:flex; 
     flex-direction: row;
-    list-style: none;
-    justify-content: flex-end; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
+    justify-content: center;
+    background-color: rgb(228, 186, 217); 
+    width: 100%; 
+    
 }
 
 .menu ul li{
+    /* list-style: none; */
     display:inline-block;
     padding: 17px;
     vertical-align: top;
