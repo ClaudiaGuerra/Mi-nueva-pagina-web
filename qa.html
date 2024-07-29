@@ -11,36 +11,28 @@
 
 <body> <!-- aquí dentro se muestra todo el contenido -->
     <header>
-        <div> <!-- div es un contenedor donde podemos agrupar varios elementos para despues darles atributos de comportamiento o disenio-->
-            <div style="background-color: rgb(142, 5, 255);"></div>
-            <a href="./index.html">
-                <img src="./imagenes/logo.png" alt="logo">
-            </a>
-        </div>
-
-        <!-- TODO: Cambiar el menu en todas las paginas -->
-        <div class="menu">
+        <div class="cajaexterior menu morado">
             <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
                 <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
                 <a href="index.html#skills"><li>SKILLS</li></a>
                 <a href="qa.html"><li>QUALITY ASSURANCE</li></a>
                 <a href="physics.html"><li>PHYSICS</li></a>
-                <a href="projects.html"><li>PROJECTS</li></a>
                 <a href="certifications.html"><li>CERTIFICATIONS</li></a>
                 <a href="courses.html"><li>COURSES</li></a>
                 <a href="index.html#contact"><li>CONTACT</li></a>
             </ul>
         </div>
     </header>
+
     <!-- QUALITY ASSURANCE SECTION -->
-    <div class="caja morada" id="qualityassurance">
+    <div class="cajaexterior caja morada" id="qualityassurance">
         <img src="./imagenes/qa2.jpg" alt="Quality Assurance">
         <h1>Quality Assurance</h1>
         <p>I worked as a Quality Assurance Engineer in a consulting role for Oracle Energy and Water. During my time there, I worked with utility software like Customer Cloud Service (CCS), Customer to Meter (C2M), and Customer Care and Billing (CC&B).
             My main activities included test design, requirement analysis, test execution, and reporting defects. Additionally, I was involved in designing training programs, providing follow-up support and mentoring new employees. </p>     
     </div>
         <!-- QUALITY ASSURANCE > CAROUSEL -->
-    <div class="carousel morado" id="carousel-qa">
+    <div class="cajaexterior carousel morado" id="carousel-qa">
         <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner" >
                 <div class="carousel-item active">
@@ -68,7 +60,7 @@
     </div>
 
     <footer>
-        <div class="footerO">
+        <div class="cajaexterior footerO morado">
             <div><p><a href="index.html">Claudia Guerra </a></p></div>
             <div><p> | </p></div>
             <div><p><a href="qa.html"> Quality Assurance </a></p></div>

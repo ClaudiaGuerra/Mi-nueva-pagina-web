@@ -4,13 +4,13 @@
 
 /* SELECTOR: las caracteristicas o propiedades que se le dan a una etiqueta para que lo muestre en el html */
 /*SELECTORES DE ETIQUETA */
-header {
-    display:flex; /*el header se muestra flexible*/
+/* header {
+    display:flex; 
     flex-direction: row;
-    justify-content: space-between; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
-}
+    justify-content: space-between; 
+    background-color: rgb(228, 186, 217); 
+    width: 100%; 
+} */
 
 
 
@@ -24,6 +24,11 @@ a{
     flex-direction: row; los elementos se organizan en un row
 } */ 
 
+header{
+    /* background-color: rgb(228, 186, 217); */
+    background: url(imagenes/background.png);
+}
+
 header ul li{/* este es para que los elementos li de la lista ul que estan en el header tengan estas caracteristicas*/
     margin: 0px;
 }
@@ -32,20 +37,24 @@ header img{
     width: 300px
 }
 
+body{
+        background: url(imagenes/background.png);
+}
+
 img { /*Este selector es para definir el tamaño de las imagenes*/
     width: 100px; /*Se pone unicamente el ancho para que lo alto se defina automaticamente por el sistema*/
 }
 
 
 h1 {
-    font-size: 24px;
     font-family: "Gill Sans";
-    color: rgb(18, 9, 4)
+    font-size: 24px;
+    color:#fff;
 }
 
 p {
     font-size: 24px;
-    color:rgb(red, green, blue)
+    color:#fff;
 }
 
 /* footer{
@@ -63,47 +72,50 @@ p {
     justify-content: center; 
     width: 100%; 
     text-justify: inter-word; 
+    color: #fff;
     background-color: rgb(228, 186, 217);
-} 
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden; }
+
+.footerO a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .footerO a:hover{
     text-decoration: none;
+    background: #cba4d1;
 }
 
 
 /* SELECTORES DE CLASE */
-/* Los selectores de clase pueden reutilizarse */
-/* .contenedor-morado {
-    display:flex;
-     flex-direction: row; 
-    width: 100%;
-    background-color: ;
-} */
-
-/* .contenedor-rosa {
-    /* display:flex;
-    flex-direction: row; 
-    width: 100%;
-    background-color: rgb(228, 186, 217);
-} */ 
-
 .menu {
-    display:flex; /*el header se muestra flexible*/
+    display:flex; 
     flex-direction: row;
-    list-style: none;
-    justify-content: flex-end; /*esta caracteristica sirve para poner el logo de un lado y el menu del otro */
-    background-color: rgb(228, 186, 217); /*para el color del fondo*/ 
-    width: 100%; /* Propiedad para definir el ancho de la pagina */
+    justify-content: center;
+    background-color: rgb(228, 186, 217); 
+    opacity: 1;
+    width: 100%; 
+    
 }
 
 .menu ul li{
+    /* list-style: none; */
     display:inline-block;
     padding: 17px;
     vertical-align: top;
+    color: #fff;
 }
 
 .menu ul li:hover{
-    background: rgb(172, 130, 191);
+    /* background: rgb(228, 186, 217)
+    color: #6c22c1; */
+
+    text-decoration: none;
+    background: #cba4d1;
  }
 
 
@@ -166,6 +178,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgb(172, 130, 191);
+    color:#fff;
     display: flex;
     flex-direction: column;
     justify-content: justify;
@@ -260,14 +273,11 @@ p {
 .cert{
     display: flex;
     flex-direction: row;
-    justify-content: justify;
     padding-bottom: 1cm;
-    text-justify: inter-word;
-    align-items: left;
-    text-align: justify;
     padding-top: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
+    text-decoration: none;;
     
 }
 
@@ -280,15 +290,25 @@ p {
 } */
 
 .cert-text{
+    text-decoration:none;
     display: flex;
     flex-direction: column;
-    justify-content: justify;
-    text-justify: inter-word;
-    align-items: left;
     text-align: justify;
     padding-top: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
+}
+
+.cert-text a{
+    text-decoration-color: #fff;
+}
+.cert-text ul li{
+    color: #fff;
+}
+
+.cert-text a:hover{
+    text-decoration: none;
+    background: #cba4d1;
 }
 
 .about {
@@ -320,6 +340,14 @@ p {
     padding:10px;
     margin: 10px;
 }
+
 /* 
+=====================================================
+Nuevos estilos */
 
 
+.cajaexterior{
+width: 90%;
+max-width: 1100px;
+margin: auto;
+overflow: hidden; }
