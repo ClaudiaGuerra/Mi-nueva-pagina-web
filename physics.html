@@ -11,15 +11,7 @@
 
 <body> <!-- aquí dentro se muestra todo el contenido -->
     <header>
-        <div> <!-- div es un contenedor donde podemos agrupar varios elementos para despues darles atributos de comportamiento o disenio-->
-            <div style="background-color: rgb(142, 5, 255);"></div>
-            <a href="./index.html">
-                <img src="./imagenes/logo.png" alt="logo">
-            </a>
-        </div>
-
-        <!-- TODO: Cambiar el menu en todas las paginas -->
-        <div class="menu">
+        <div class="cajaexterior menu morado">
             <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
                 <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
                 <a href="index.html#skills"><li>SKILLS</li></a>
@@ -33,7 +25,7 @@
     </header>
 
     <!-- PHYSICS SECTION -->
-    <div class="physics"> <!--class="contenedor"> esta es una caja que contiene los tres elementos de bajo, se usa un selector de clases  -->
+    <div class="cajaexterior physics"> <!--class="contenedor"> esta es una caja que contiene los tres elementos de bajo, se usa un selector de clases  -->
         <div class="caja morada" id="physics">
             <img src="./imagenes/physics2.jpg" alt="Physics"> <!-- alt da un texto alternativo a la imagen-->
             <h1>Physics </h1><!-- este se utiliza para poner titulos, cuando mas chico el numero, mas importante es el titulo (o mas grande) -->
@@ -95,8 +87,8 @@
         </div>
     </div>
 
-    <div class="projects">
-        <div class="caja morada">
+
+        <div class="cajaexterior caja morada">
             <img src="./imagenes/projects2.jpg" alt="Projects" id="projects">
             <h1>Projects</h1>
             <p>I've stepped into the exciting world of semiconductors. My thesis focuses on thin film deposition using Pulsed Laser Deposition, a technique that helps us create and study semiconductor thin films.
@@ -106,7 +98,7 @@
         </div>
     
         <!-- PROJECTS > CAROUSEL -->
-        <div class="carousel morado" id="carousel-projects">
+        <div class="cajaexterior carousel morado" id="carousel-projects">
             <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner" >
                     <div class="carousel-item active">
@@ -139,7 +131,7 @@
 
 
     <footer>
-        <div class="footerO">
+        <div class="cajaexterio footerO morado">
             <div><p><a href="index.html">Claudia Guerra </a></p></div>
             <div><p> | </p></div>
             <div><p><a href="qa.html"> Quality Assurance </a></p></div>

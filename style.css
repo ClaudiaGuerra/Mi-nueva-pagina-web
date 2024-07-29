@@ -75,7 +75,7 @@ p {
     color: #fff;
     background-color: rgb(228, 186, 217);
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     overflow: hidden; }
 
@@ -273,14 +273,11 @@ p {
 .cert{
     display: flex;
     flex-direction: row;
-    justify-content: justify;
     padding-bottom: 1cm;
-    text-justify: inter-word;
-    align-items: left;
-    text-align: justify;
     padding-top: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
+    text-decoration: none;;
     
 }
 
@@ -293,15 +290,25 @@ p {
 } */
 
 .cert-text{
+    text-decoration:none;
     display: flex;
     flex-direction: column;
-    justify-content: justify;
-    text-justify: inter-word;
-    align-items: left;
     text-align: justify;
     padding-top: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
+}
+
+.cert-text a{
+    text-decoration-color: #fff;
+}
+.cert-text ul li{
+    color: #fff;
+}
+
+.cert-text a:hover{
+    text-decoration: none;
+    background: #cba4d1;
 }
 
 .about {
@@ -341,6 +348,6 @@ Nuevos estilos */
 
 .cajaexterior{
 width: 90%;
-max-width: 1000px;
+max-width: 1100px;
 margin: auto;
 overflow: hidden; }
