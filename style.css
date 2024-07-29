@@ -24,6 +24,11 @@ a{
     flex-direction: row; los elementos se organizan en un row
 } */ 
 
+header{
+    /* background-color: rgb(228, 186, 217); */
+    background: url(imagenes/background.png);
+}
+
 header ul li{/* este es para que los elementos li de la lista ul que estan en el header tengan estas caracteristicas*/
     margin: 0px;
 }
@@ -32,20 +37,24 @@ header img{
     width: 300px
 }
 
+body{
+        background: url(imagenes/background.png);
+}
+
 img { /*Este selector es para definir el tamaño de las imagenes*/
     width: 100px; /*Se pone unicamente el ancho para que lo alto se defina automaticamente por el sistema*/
 }
 
 
 h1 {
-    font-size: 24px;
     font-family: "Gill Sans";
-    color: rgb(18, 9, 4)
+    font-size: 24px;
+    color:#fff;
 }
 
 p {
     font-size: 24px;
-    color:rgb(red, green, blue)
+    color:#fff;
 }
 
 /* footer{
@@ -63,11 +72,22 @@ p {
     justify-content: center; 
     width: 100%; 
     text-justify: inter-word; 
+    color: #fff;
     background-color: rgb(228, 186, 217);
-} 
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; }
+
+.footerO a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .footerO a:hover{
     text-decoration: none;
+    background: #cba4d1;
 }
 
 
@@ -77,6 +97,7 @@ p {
     flex-direction: row;
     justify-content: center;
     background-color: rgb(228, 186, 217); 
+    opacity: 1;
     width: 100%; 
     
 }
@@ -86,10 +107,15 @@ p {
     display:inline-block;
     padding: 17px;
     vertical-align: top;
+    color: #fff;
 }
 
 .menu ul li:hover{
-    background: rgb(172, 130, 191);
+    /* background: rgb(228, 186, 217)
+    color: #6c22c1; */
+
+    text-decoration: none;
+    background: #cba4d1;
  }
 
 
@@ -152,6 +178,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgb(172, 130, 191);
+    color:#fff;
     display: flex;
     flex-direction: column;
     justify-content: justify;
@@ -306,6 +333,14 @@ p {
     padding:10px;
     margin: 10px;
 }
+
 /* 
+=====================================================
+Nuevos estilos */
 
 
+.cajaexterior{
+width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden; }

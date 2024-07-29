@@ -23,81 +23,91 @@
         </div> -->
 
         <!-- TODO: Cambiar el menu en todas las paginas -->
-        <div class="menu">
-            <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
-                <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
-                <a href="index.html#skills"><li>SKILLS</li></a>
-                <a href="qa.html"><li>QUALITY ASSURANCE</li></a>
-                <a href="physics.html"><li>PHYSICS</li></a>
-                <a href="certifications.html"><li>CERTIFICATIONS</li></a>
-                <a href="courses.html"><li>COURSES</li></a>
-                <a href="index.html#contact"><li>CONTACT</li></a>
-            </ul>
+        <div class="cajaexterior">
+            <div class="menu morado">
+                <ul> <!-- esta es un contenedor de lista ul es SIN ORDEN y ol es con numeros en orden-->
+                    <a href="index.html"><li>ABOUT</li></a> <!-- este link esta ligado a el div id="about", quiere decir que cuando se de click aqui, va a mandar directo a la caja del about, es decir, link de youtube y maps-->
+                    <a href="index.html#skills"><li>SKILLS</li></a>
+                    <a href="qa.html"><li>QUALITY ASSURANCE</li></a>
+                    <a href="physics.html"><li>PHYSICS</li></a>
+                    <a href="certifications.html"><li>CERTIFICATIONS</li></a>
+                    <a href="courses.html"><li>COURSES</li></a>
+                    <a href="index.html#contact"><li>CONTACT</li></a>
+                </ul>
+            </div>
         </div>
     </header>
 
 
 
     <!-- ABOUT SECTION -->
-    <div class="about caja morada">
-        <img src="./imagenes/about.jpg"></img>
-        <h1>About me</h1>
-        <p>Hello! This is Claudia and I am passionate for science and technology. I love working in teams and creating a positive work environment. I'm always ready to help my colleagues and share my knowledge to help the team succeed.
-            I'm constantly looking for ways to improve our testing methods to ensure we deliver the best results. I take pride in my strong work ethic and believe in doing things right, maintaining high standards to deliver quality software every time.
-            I'm excited to find new opportunities where I can bring my skills and be part of a collaborative team.</p>
+    <div class="cajaexterior">
+        <div class="about caja morada">
+            <img src="./imagenes/about.jpg"></img>
+            <h1>About me</h1>
+            <p>Hello! This is Claudia and I am passionate for science and technology. I love working in teams and creating a positive work environment. I'm always ready to help my colleagues and share my knowledge to help the team succeed.
+                I'm constantly looking for ways to improve our testing methods to ensure we deliver the best results. I take pride in my strong work ethic and believe in doing things right, maintaining high standards to deliver quality software every time.
+                I'm excited to find new opportunities where I can bring my skills and be part of a collaborative team.</p>
+        </div>
     </div>
 
     
 
     
     <!-- SKILLS SECTION -->
-    <div class="caja rosa">
-        <img src="./imagenes/skills.png" alt="Skills" id="skills">
-        <h1>SKILLS</h1>
-        <ul>
-            <li>SoapUI</li>
-            <li>Jira</li>
-            <li>Test planning</li>
-            <li>Test design</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>GitHub</li>
-        </ul>
+    <div class="cajaexterior">
+        <div class="caja morada">
+            <img src="./imagenes/skills.png" alt="Skills" id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>SoapUI</li>
+                <li>Jira</li>
+                <li>Test planning</li>
+                <li>Test design</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
 
-        <ul>
-            <li>List of soft skills</li>
-        </ul>
-    </div>  
+            <ul>
+                <li>List of soft skills</li>
+            </ul>
+        </div>  
+    </div>
     
 
     <!-- CONTACT SECTION -->
     <!-- I'm thinking about adding a Contact section -->
-    <div class="caja morada">
-        <img src="./imagenes/contact.png" alt="Contact" id="contact">
-        <h1>CONTACT</h1>
-    
-        <form class="formulario" action="">
-            <input type="text" placeholder="Name" name="name">
-            <input type="email" placeholder="Email" name="email">
-            <textarea name="" id="" placeholder="Message" ></textarea>
-            <input type="submit" value="Send">
-        </form>  
-    </div>   
+        <div class="cajaexterior">
+        <div class="caja morada">
+            <img src="./imagenes/contact.png" alt="Contact" id="contact">
+            <h1>Contact</h1>
+        
+            <form class="formulario" action="">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <textarea name="" id="" placeholder="Message" ></textarea>
+                <input type="submit" value="Send">
+            </form>  
+        </div>   
+    </div>
 
-    <div class="content carousel rosa " >
-        <!-- CONTENT (VIDEOS, MAP, ETC) SECTION -->
-        <div> <!-- Al poner este identificador, se pueden anadir propiedades en css. Por ejemplo, -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.8343846513876!2d-103.34948973820333!3d20.67557219748158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1faa928f63f%3A0x25dcb2cdab10691a!2sCatedral%20de%20Guadalajara%20(Bas%C3%ADlica%20de%20la%20Asunci%C3%B3n%20de%20Mar%C3%ADa%20Sant%C3%ADsima)!5e0!3m2!1ses-419!2suk!4v1716506503977!5m2!1ses-419!2suk" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7jvfG7ua5HU?si=XNvZYhHWtCVY8h-X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+
+    <div class="cajaexterior">
+        <div class="content carousel morado " >
+            <!-- CONTENT (VIDEOS, MAP, ETC) SECTION -->
+            <div> <!-- Al poner este identificador, se pueden anadir propiedades en css. Por ejemplo, -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.8343846513876!2d-103.34948973820333!3d20.67557219748158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1faa928f63f%3A0x25dcb2cdab10691a!2sCatedral%20de%20Guadalajara%20(Bas%C3%ADlica%20de%20la%20Asunci%C3%B3n%20de%20Mar%C3%ADa%20Sant%C3%ADsima)!5e0!3m2!1ses-419!2suk!4v1716506503977!5m2!1ses-419!2suk" width="460" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/7jvfG7ua5HU?si=XNvZYhHWtCVY8h-X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>  
     </div>
 
     <footer>
-        <div class="footerO">
+        <div class="footerO morado">
             <div><p><a href="index.html">Claudia Guerra </a></p></div>
             <div><p> | </p></div>
             <div><p><a href="qa.html"> Quality Assurance </a></p></div>
