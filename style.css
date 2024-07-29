@@ -105,9 +105,12 @@ p {
 .menu ul li{
     /* list-style: none; */
     display:inline-block;
-    padding: 17px;
+    padding: 20px;
     vertical-align: top;
     color: #fff;
+    margin: 0 10px;
+    padding-bottom: 15px;
+    border-bottom: 15px;
 }
 
 .menu ul li:hover{
