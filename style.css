@@ -14,10 +14,10 @@
 
 
 
-a{
+/* a{
     text-decoration: none;
     color: aliceblue;
-}
+} */
 /* header ul { /*aqui se especifica que a la lista del header se le aplican estas propiedades
     list-style: none;
     display: flex; /*es para darle las propiedades de flex
@@ -25,8 +25,8 @@ a{
 } */ 
 
 header{
-    /* background-color: rgb(228, 186, 217); */
     background: url(imagenes/background.png);
+    /* backdrop-filter: blur(3px); */
 }
 
 header ul li{/* este es para que los elementos li de la lista ul que estan en el header tengan estas caracteristicas*/
@@ -39,6 +39,7 @@ header img{
 
 body{
         background: url(imagenes/background.png);
+        /* backdrop-filter: blur(3px); */
 }
 
 img { /*Este selector es para definir el tamaño de las imagenes*/
@@ -48,8 +49,8 @@ img { /*Este selector es para definir el tamaño de las imagenes*/
 
 h1 {
     font-family: "Gill Sans";
-    font-size: 24px;
-    color:#fff;
+    /* font-size: 24px;
+    color:#fff; */
 }
 
 p {
@@ -63,8 +64,23 @@ p {
     justify-content: center; 
     width: 100%; 
     text-justify: inter-word; 
+    color: #fff;
     background-color: rgb(228, 186, 217);
-}  */
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden; }
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+footer a:hover{
+    text-decoration: none;
+    background: #cba4d1;
+} */
 
  .footerO{
     display:flex; 
@@ -98,8 +114,7 @@ p {
     justify-content: center;
     background-color: rgb(228, 186, 217); 
     opacity: 1;
-    width: 100%; 
-    
+    width: 100%;  
 }
 
 .menu ul li{
@@ -182,10 +197,10 @@ p {
     color:#fff;
     display: flex;
     flex-direction: column;
-    justify-content: justify;
+    /* justify-content: justify; */
     align-items: center;
     text-align: justify;
-    text-justify: inter-word;
+    /* text-justify: inter-word; */
     padding-top: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
@@ -215,8 +230,6 @@ p {
     opacity:0.8
 }
 
-
-
 .carousel{
     padding-bottom: 0.5cm;
     padding-top: 0.5;
@@ -233,7 +246,6 @@ p {
 .morada img {
     border-radius: 50%;
     height: 90%;
-    justify-content: right;
     border: 5px solid rgba(255,255,255,0.2);
 }
 
@@ -282,14 +294,6 @@ p {
     text-decoration: none;;
     
 }
-
-/* .cert img{
-    display: flex;
-    flex-direction: row;
-    justify-content: justify;
-    padding-bottom: 1cm;
-    width: 30%;
-} */
 
 .cert-text{
     text-decoration:none;
@@ -421,4 +425,5 @@ overflow: hidden; }
     header .menu ul li {
         flex-wrap: wrap;
         padding: 1px;
-} 
+    } 
+}
